@@ -1,5 +1,5 @@
 {
-  "name": "Queen-M",
+  "name": "Whisper-",
   "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/vm9usm.jpeg",
-  "repository": "https://github.com/Pkdriller/QUEEN-M",
+  "logo": "https://i.ibb.co/PZ2t2rdR/nexus-xmd.jpg",
+  "repository": "https://github.com/amoncode6/Whisper-",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "Queen-M",
+      "value": "Whisper-",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -99,12 +99,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "PkDriller",
+      "value": "Mrtechke",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/4nt2ds.jpeg",
+      "value": "https://i.ibb.co/PZ2t2rdR/nexus-xmd.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -114,7 +114,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547')",
-      "value": "254736761160",
+      "value": "254759006509",
       "required": false
     },
     "WARN_COUNT": {
