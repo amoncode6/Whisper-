@@ -756,7 +756,7 @@ zk.ev.on('group-participants.update', async (group) => {
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
                 }, {
-                    timezone: "Africa/Botswana"
+                    timezone: "Africa/Kenya"
                   });
               }
         
@@ -848,19 +848,19 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`*Queen-M Connected Successfully*
-╭━━━〔 *Queen-M* 〕━━━┈⊷
+                let cmsg =`*Whisper- Connected Successfully*
+╭━━━〔 *Whisper-* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ *Prefix : [ ${prefixe} ]*
 ┃★│ *Baileys : Multi Device*
 ┃★│ *Type : NodeJs*
 ┃★│ *Platform : Heroku*
 ┃★│ *Version : 1.0*
-┃★│ *Owner : PkDriller*
+┃★│ *Owner : amoncode6*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 *Follow Below*⁠⁠⁠⁠
-https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x`;
+https://whatsapp.com/channel/0029VbAJHnaJf05VugeMMh1a`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
