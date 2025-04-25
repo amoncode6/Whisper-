@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Pkdriller/QUEEN-M  /root/queen
+RUN git clone https://github.com/amoncode6/Whisper-  /root/queen
 WORKDIR /root/toshtech/
 
 
